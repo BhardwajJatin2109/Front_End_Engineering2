@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <table border="5">
+       <thead>
+        <th>G-24 Timetable</th>
+        <tr>
+            <th>
+                Days/Period
+            </th>
+            <td>
+                Period 1
+            </td>
+            <td>
+                Period 2
+            </th>
+            <th>
+                Period 3
+            </th>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>Tuesday</td>
+            <td></td>
+        </tr>
+       </thead>
+    </table> -->
+    <table border="3">
+       <tr> <td colspan="4" align="center">G-24 TimeTable</td></tr>
+       <tr>
+        <th>Days/Class</th>
+        <td>Class 1</td>
+        <td>Class 2</td>
+        <td>Class 3</td>
+       </tr>
+       <tr>
+        <th>Monday</th>
+        <td rowspan="3">Fee</td>
+        <td>OOps</td>
+        <td>Fee</td>
+       </tr>
+       <tr>
+        <th>Tuesday</th>
+        
+        <td>Fee</td>
+        <td>CN</td>
+       </tr>
+       <tr>
+        <th>Wednesday</th>
+       
+        <td>Oops</td>
+        <td>Discrete Mathematics</td>
+       </tr>
+    </table>
+</body>
+</html>
